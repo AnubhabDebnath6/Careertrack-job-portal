@@ -1,3 +1,3 @@
-Public job portal (frontend): 
-Backend API base URL: 
-Administrator login page: 
+Public job portal (frontend): https://anubhabdebnath6.github.io/Careertrack-job-portal/
+Backend API base URL: https://careertrack-api.vercel.app/api
+Administrator login page: https://anubhabdebnath6.github.io/Careertrack-job-portal/#/admin/login
