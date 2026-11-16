@@ -127,11 +127,15 @@ Manual test cases with expected results are listed in `docs/Test_Cases.xlsx`. Ru
 
 ## Deployment
 
-- Frontend: Vercel (set `VITE_API_URL` to the deployed API URL; `vercel.json` handles client-side routing)
-- Backend: Render web service (root directory `backend`, build command `npm install`, start command `npm start`, environment variables from `.env.example`)
+- Frontend: GitHub Pages (built by a GitHub Actions workflow in `.github/workflows/deploy.yml`; set the repository variable `VITE_API_URL` to the API URL)
+- Backend: Vercel serverless function (root directory `backend`, entry `backend/api/[...path].js`, environment variables from `.env.example`)
 - Database: MongoDB Atlas
 
-Deployment URLs: see `Deployment_Links.txt`.
+Live links:
+- Job portal: https://anubhabdebnath6.github.io/Careertrack-job-portal/
+- Admin login: https://anubhabdebnath6.github.io/Careertrack-job-portal/#/admin/login
+- Backend API: https://careertrack-api.vercel.app/api   (use your real Vercel address)
+- Demo video: PASTE YOUR VIDEO LINK
 
 ## Known limitations and future improvements
 
