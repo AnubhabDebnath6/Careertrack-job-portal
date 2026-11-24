@@ -126,21 +126,25 @@ Error responses use the shape `{ "success": false, "message": "...", "errors": [
 Manual test cases with expected results are listed in `docs/Test_Cases.xlsx`. 
 Run the application locally, execute each case, and record the actual result and status.
 
+
+
 ## Deployment
 
-- Frontend: GitHub Pages (built by a GitHub Actions workflow in `.github/workflows/deploy.yml`; set the repository variable `VITE_API_URL` to the API URL)
-- Backend: Vercel serverless function (root directory `backend`, entry `backend/api/[...path].js`, environment variables from `.env.example`)
+- Frontend: GitHub Pages (built by GitHub Actions from `.github/workflows/deploy.yml`; the repository variable `VITE_API_URL` holds the API URL)
+- Backend: Vercel serverless function (root directory `backend`, entry `backend/api/index.js`, rewrite rule in `backend/vercel.json`)
 - Database: MongoDB Atlas
 
-Live links:
-- Job portal: https://anubhabdebnath6.github.io/Careertrack-job-portal/
-- Admin login: https://anubhabdebnath6.github.io/Careertrack-job-portal/#/admin/login
-- Backend API: https://careertrack-job-portal-api.vercel.app/api
-- Demo video:
+## Live Links
 
-## Known limitations and future improvements
+- [Job portal](https://anubhabdebnath6.github.io/Careertrack-job-portal/)
+- [Admin login](https://anubhabdebnath6.github.io/Careertrack-job-portal/#/admin/login)
+- Backend API base URL: https://careertrack-job-portal-api.vercel.app/api
+- [API health check](https://careertrack-job-portal-api.vercel.app/api/health)
+- [Demo video]()
 
-- Resumes are stored in MongoDB with a 2 MB limit; a dedicated object store would suit larger volumes
-- Single administrator role; no multi-role permissions
-- No email notifications to candidates
-- Automated tests are not included; testing is manual
+## Documentation
+
+- [API documentation](docs/API_Documentation.pdf)
+- [Database schema](docs/Database_Schema.pdf)
+- [Test cases](docs/Test_Cases.xlsx)
+- [Screenshots](screenshots/)
