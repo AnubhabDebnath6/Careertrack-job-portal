@@ -123,7 +123,8 @@ Error responses use the shape `{ "success": false, "message": "...", "errors": [
 
 ## Testing
 
-Manual test cases with expected results are listed in `docs/Test_Cases.xlsx`. Run the application locally, execute each case, and record the actual result and status.
+Manual test cases with expected results are listed in `docs/Test_Cases.xlsx`. 
+Run the application locally, execute each case, and record the actual result and status.
 
 ## Deployment
 
@@ -135,7 +136,7 @@ Live links:
 - Job portal: https://anubhabdebnath6.github.io/Careertrack-job-portal/
 - Admin login: https://anubhabdebnath6.github.io/Careertrack-job-portal/#/admin/login
 - Backend API: https://careertrack-api.vercel.app/api   (use your real Vercel address)
-- Demo video: PASTE YOUR VIDEO LINK
+- Demo video:
 
 ## Known limitations and future improvements
 
