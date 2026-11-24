@@ -135,7 +135,7 @@ Run the application locally, execute each case, and record the actual result and
 Live links:
 - Job portal: https://anubhabdebnath6.github.io/Careertrack-job-portal/
 - Admin login: https://anubhabdebnath6.github.io/Careertrack-job-portal/#/admin/login
-- Backend API: https://careertrack-api.vercel.app/api   (use your real Vercel address)
+- Backend API: https://careertrack-api.vercel.app/api 
 - Demo video:
 
 ## Known limitations and future improvements
