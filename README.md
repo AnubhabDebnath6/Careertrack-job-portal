@@ -140,7 +140,7 @@ Run the application locally, execute each case, and record the actual result and
 - [Admin login](https://anubhabdebnath6.github.io/Careertrack-job-portal/#/admin/login)
 - [Backend API base URL](https://careertrack-job-portal-api.vercel.app/api)
 - [API health check](https://careertrack-job-portal-api.vercel.app/api/health)
-- [Demo video]()
+- [Demo video](https://drive.google.com/drive/folders/1EWB8Ya70NiPoNcd1NEFGkpDUzAQVo-UE?usp=sharing)
 
 ## Documentation
 
